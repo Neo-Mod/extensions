@@ -171,7 +171,7 @@ const extensions = [
 
 // In below array, there is some extensions that were taken from MistWarp and PenguinMod
 // (PenguinMod's extensions were added here for IDs addition)
-const otherExtensions = [
+const pmExtensions = [
     {
         name: "Pen+",
         description: "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
@@ -839,4 +839,4 @@ const otherExtensions = [
     },
 ];
 
-export {extensions, otherExtensions}
+export {extensions, pmExtensions}
