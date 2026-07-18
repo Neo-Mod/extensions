@@ -71,7 +71,7 @@ export default function ExtensionsGallery () {
     return (
         <>
             <header className="ext-gallery-header">
-                <h1>Dash Extensions Gallery</h1>
+                <h1>NeoMod Extensions Gallery</h1>
                 <div className="ext-controls">
                     <input
                         className="ext-search"
@@ -93,8 +93,8 @@ export default function ExtensionsGallery () {
             <div className="ext-gallery-root">
                 <main>
                     <div className="ext-infobox">
-                        <div className="ext-infobox-title">Some extensions will work only in Dash.</div>
-                        Extensions will likely not work in other mods than Dash if they:
+                        <div className="ext-infobox-title">Some extensions will work only in NeoMod.</div>
+                        Extensions will likely not work in other mods than NeoMod if they:
                         <ul>
                             <li>Rely on Arrays or Objects,</li>
                             <li>Use generator functions (function*) as serializers/deserializers of custom types,</li>

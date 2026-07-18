@@ -169,7 +169,7 @@ const extensions = [
     },
 ];
 
-// In below array, there is some extensions that were taken from MistWarp and PenguinMod
+// In below array, there is some extensions that were taken from PenguinMod
 // (PenguinMod's extensions were added here for IDs addition)
 const pmExtensions = [
     {
@@ -839,4 +839,16 @@ const pmExtensions = [
     },
 ];
 
-export {extensions, pmExtensions}
+// In below array, there is some extensions that were taken from RubyDevs
+const otherExtensions = [
+        {
+        name: "Poop Extension",
+        description: "The most useful, amazing, and well done extension, made by the most cool person ever!",
+        code: "poop.js",
+        banner: "poop.png",
+        creator: "ddededodediamante",
+        isGitHub: false
+    }
+];
+
+export {extensions, pmExtensions, otherExtensions}
