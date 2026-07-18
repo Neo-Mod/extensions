@@ -149,7 +149,7 @@ export default function ExtensionsGallery () {
                                         <button
                                             className="ext-btn ext-btn-accented"
                                             onClick={() => {
-                                                window.open("https://dashblocks.org/editor?extension=" + getCodeUrl(ext.code), "_blank");
+                                                window.open("https://neo-mod.github.io/editor?extension=" + getCodeUrl(ext.code), "_blank");
                                             }}
                                         >
                                             Open Extension
@@ -157,7 +157,7 @@ export default function ExtensionsGallery () {
                                         <button
                                             className="ext-btn"
                                             onClick={() => {
-                                                window.open("https://dashblocks.org/scratch-gui/editor?enabletests&extension=" + getCodeUrl(ext.code), "_blank");
+                                                window.open("https://neo-mod.github.io/scratch-gui/editor?enabletests&extension=" + getCodeUrl(ext.code), "_blank");
                                             }}
                                         >
                                             ...in Dev
@@ -166,7 +166,7 @@ export default function ExtensionsGallery () {
                                             className="ext-btn ext-btn-accented"
                                             onClick={() => {
                                                 navigator.clipboard.writeText(getCodeUrl(ext.code));
-                                                alert("Extension link copied to clipboard!");
+                                                alert("Copied to clipboard!");
                                             }}
                                         >
                                             Copy Link
