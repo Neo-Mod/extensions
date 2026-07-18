@@ -11,15 +11,15 @@ const creditLinkShortcuts = {
 const creditLink = (credit) => credit.link;
 
 function getBannerUrl (banner) {
-    if (!banner) return `https://dashblocks.org/extensions/static/images/unknown.svg`;
+    if (!banner) return `https://neo-mod.github.io/extensions/static/images/unknown.svg`;
     if (banner.startsWith("http://") || banner.startsWith("https://")) return banner;
-    return `https://dashblocks.org/extensions/static/images/${banner}`;
+    return `https://neo-mod.github.io/extensions/static/images/${banner}`;
 }
 
 function getCodeUrl (code) {
     if (!code) return "#";
     if (code.startsWith("http://") || code.startsWith("https://")) return code;
-    return `https://dashblocks.org/extensions/static/extensions/${code}`;
+    return `https://neo-mod.github.io/extensions/static/extensions/${code}`;
 }
 
 function getCreatorNode (creator) {
