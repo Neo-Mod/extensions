@@ -915,8 +915,7 @@ const otherExtensions = [
         description: "The most useful, amazing, and well done extension, made by the most cool person ever!",
         code: "poop.js",
         banner: "poop.png",
-        creator: "ddededodediamante",
-        isGitHub: false
+        creator: "ddededodediamante"
     },
 ];
 
