@@ -837,6 +837,15 @@ const pmExtensions = [
         tags: ["customtype","data","utility","new","large"],
         creatorAlias: "AndrewGaming587"
     },
+	{
+        name: "Black Mold",
+        description: "mmmmm black mold",
+        code: "electricfuzzball_pm/blackMold.js",
+        banner: "electricfuzzball_pm/blackMold.svg",
+        creator: "FloppyDisk-OSC",
+        isGitHub: true,
+        creatorAlias: "ElectricFuzzball_PM"
+    },
 ];
 
 // In below array, there is some extensions that were taken from RubyDevs
@@ -848,7 +857,7 @@ const otherExtensions = [
         banner: "poop.png",
         creator: "ddededodediamante",
         isGitHub: false
-    }
+    },
 ];
 
 export {extensions, pmExtensions, otherExtensions}
