@@ -855,7 +855,7 @@ const gmExtensions = [
         description: "Wonderful utility blocks!",
         code: "GaiaWindWave90/GaiaBlocks.js",
         banner: "GaiaWindWave90/GaiaUtilities.png",
-        creator: "GaiaWindWave90 and other users",
+        creator: "GaiaWindWave90",
         isGitHub: true,        
     },
     {
